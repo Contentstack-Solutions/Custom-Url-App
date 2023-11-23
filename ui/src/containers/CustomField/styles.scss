@@ -1,0 +1,51 @@
+.layout-container {
+  margin-top: 10px;
+  padding-left: 2px;
+  width: 99%;
+  .field-wrapper {
+    width: 100%;
+    .TextInput--suffix {
+      width: 100%;
+      max-width: 100%;
+      .TextInput__input.TextInput__v2 {
+        padding-right: 2.125rem !important;
+      }
+    }
+  }
+}
+
+.field {
+  font-size: 1rem;
+}
+
+.TextInput__input {
+  font-size: 16px !important;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  padding: 0.25rem 0.625rem;
+  height: 30px;
+}
+.TextInput--suffix .TextInput__suffix__wrapper:hover {
+  background: transparent !important;
+}
+.TextInput {
+  &:hover {
+    Button {
+      border: 0 none;
+    }
+  }
+}
+.TextInput--suffix .TextInput__suffix__wrapper {
+  height: auto !important;
+  right: 7.4px !important;
+  svg {
+    vertical-align: baseline;
+  }
+  Button {
+    padding: 0;
+  }
+}
+.environment-link {
+  margin-bottom: 10px;
+}

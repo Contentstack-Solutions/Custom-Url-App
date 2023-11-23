@@ -1,0 +1,25 @@
+.noUrl {
+  color: #a9b6cb;
+  font-size: 0.75rem;
+  letter-spacing: -0.00006em;
+  margin: calc(0.125rem + 1px) 0 0 0.975rem;
+}
+.environment-link {
+  a {
+    text-decoration: none;
+    color: #647696;
+    display: flex;
+    span {
+      font-size: 0.75rem;
+      letter-spacing: -0.00006em;
+      line-height: 1.125rem;
+      font-weight: 500;
+    }
+    &.InstructionText {
+      margin: calc(0.125rem + 1px) 0 0 0.975rem;
+      &:hover {
+        color: #6c5ce7;
+      }
+    }
+  }
+}
