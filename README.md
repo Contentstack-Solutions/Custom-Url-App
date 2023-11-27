@@ -30,17 +30,26 @@ npm i
 npm run start
 ```
 
-The UI server will start at port 4000.
+The UI server will start at port 3000.(NOTE: PORT number is defined in the package.json file of the ui directory. You can change the port according to your choice.)
 
 
 ## Creating an app in Developer Hub/Marketplace
 -  Go to developer hub at https://app.contentstack.com/#!/developerhub
 -  Create a new app by clicking + New App button at top right and Select app type as Stack App, add name and description.
+<kbd>![](./ui/public/images/developerHub-NewAapp.png)</kbd>
 - After creating an app, you will be redirected to the Basic Information page. Add the icon for your app.
-- Open the UI Locations tab and add the URL of your app. For e.g. : http://localhost:4000/#. 
+<kbd>![](./ui/public/images/app-basic-info.png)</kbd>
+- Open the UI Locations tab and add the URL of your app. For e.g. : http://localhost:3000/#. 
   We are adding ` # ` in the URL as We are using React HashRouter for Routing.
+  
+  <kbd>![](./ui/public/images/app-basic-info.png)</kbd>
+
+  <kbd>![](./ui/public/images/app-UI-Location.png)</kbd>
 - From Available location(s) , add Custom Field. For Custom Field, add name and path. The value of path should be ` /custom-field `.  Switch on the toggle for Enabled to enable the Custom Field location. Select the  Data Type as a Text. Add the description if required.
+<kbd>![](./ui/public/images/app-custom-field-config.png)</kbd>
 - Now install the app by clicking the Install App button at top right. From the next window, select the stack in which you want to install the app.
+
+<kbd>![](./ui/public/images/install-app.png)</kbd>
 
 
 Note : You can give any path values but make sure the path value in `<APP_DIRECTORY>/ui/src/containers/App/index.tsx` and in UI location should be the same.
