@@ -87,11 +87,6 @@ Note : You can give any path values but make sure the path value in `<APP_DIRECT
 
 * You can refer to the changes in UI now at corresponding places as mentioned above.
 
-#  Contentstack Marketplace App PoC
-
-  This project assumes you have a project set up in the Developer Hub already.
-  - [Marketplace App Boilerplate Documentation](https://www.contentstack.com/docs/developers/developer-hub/marketplace-app-boilerplate/)
-- [Marketplace Boiler Plate](https://github.com/contentstack/marketplace-app-boilerplate)
 
 **Disclaimer**: The code provided herein is intended solely for demonstration and proof-of-concept purposes. It is NOT intended for production use, nor should it be used in any environment or application where its failure or misbehavior could lead to direct or indirect harm, loss, or damage.
 
